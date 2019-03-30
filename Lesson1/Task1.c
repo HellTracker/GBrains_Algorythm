@@ -16,13 +16,13 @@ int main(int argc, char const *argv[])
 	{
 		if ((h > 3) && (h < 300))
 		{
-			printf("Convert height into meters\n");
+			printf("Конвертируем сантиметры в метры\n");
 			h = h / 100;
 			break;
 		}
 		else if ((h > 300) || (h < 0))
 		{
-			printf("Please, type correct height:\n");
+			printf("Пожалуйста, введите корректный рост:\n");
 			scanf("%lf", &h);
 		}
 		else if ((h < 3) && (h > 0)) break;
