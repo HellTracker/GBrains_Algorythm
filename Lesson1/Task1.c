@@ -29,6 +29,6 @@ int main(int argc, char const *argv[])
 	}
 	I = m/(h*h);
 	printf("Рост: %.2lf Вес: %.2lf\n", h, m);
-	printf("Индкс массы: %.2lf\n", I);
+	printf("Индекс массы: %.2lf\n", I);
 	return 0;
 }
