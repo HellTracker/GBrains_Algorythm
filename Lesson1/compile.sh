@@ -6,7 +6,6 @@ declare -a array
 array=($(basename -s .c $(ls -f *.c)))
 for (( i = 0; i < $cfiles; i++ ))
 do
-	echo $i проход
 	if [ -f ./bin/${array[i]}.md5 ]; then
 		md5sum -c ./bin/${array[i]}.md5
 		if [ $? -eq 1 ]; then
@@ -23,4 +22,3 @@ do
 		fi
 	fi
 done
-
