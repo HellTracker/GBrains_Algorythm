@@ -9,8 +9,6 @@
 int main(int argc, char const *argv[])
 {
 	/* code */
-
-	
 	double I,m,h;
 	printf("Введите сначала рост, затем вес\n");
 	scanf("%lf %lf", &h, &m);
