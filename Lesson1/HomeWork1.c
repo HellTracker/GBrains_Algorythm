@@ -122,7 +122,7 @@ void task_6()
 	int old;
 	printf("Введите возраст человека:\n");
 	scanf("%d", &old);
-	if ((old>=0)&&(old<=150))
+	if ((old>=1)&&(old<=150))
 	{
 		if ((old%10)==1) printf("Человеку %d год\n", old);
 		if (((old%10)>=2)&&((old%10)<=4)) printf("Человеку %d года\n", old);
