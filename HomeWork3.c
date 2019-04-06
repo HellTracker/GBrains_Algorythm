@@ -22,7 +22,7 @@ void print(int n, int * a)
 int bubble_a()
 {
 	int a[10] = {8, 1, 0, 9, 3, 4, 2, 5, 7, 6}, n, i, j;
-	//printf("Enter nums (10-100):\n");
+	//printf("Введите диапазон массива (10-100):\n");
 	//scanf("%d", &n);
 	// for (i=0; i<n; ++i) scanf("%d", &a[i]);
 	n = 10;
@@ -47,7 +47,7 @@ int bubble_a()
 int bubble_b()
 {
 	int a[10] = {8, 1, 0, 9, 3, 4, 2, 5, 7, 6}, n, i, j, c;
-	printf("Enter nums (10-100):\n");
+	//printf("Введите диапазон массива (10-100):\n");
 	//scanf("%d", &n);
 	//for (i=0; i<n; ++i) scanf("%d", &a[i]);
 	n = 10;
